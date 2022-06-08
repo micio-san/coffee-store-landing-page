@@ -4,6 +4,7 @@ This is the first project I upload on Github, knowing myself I'll need a few try
 
 This is The Mockup I did on Figma 
 
+![](images/Slide%2016_9%20-%201.png)
 
 
 
