@@ -1,7 +1,6 @@
 const mover = document.querySelector('.mover');
 const sliders = document.querySelectorAll('.moved');
 const height = sliders[0].clientHeight;
-console.log(sliders)
 let idx = 0;
 
 function moveSlides() {
@@ -13,7 +12,6 @@ function moveSlides() {
         mover.style.transform = `translateY(-${height * idx}px)`;
         mover.style.transition ='none';
     }
-    console.log(idx)
 }
 
 setInterval(moveSlides,3000)
@@ -61,9 +59,3 @@ function close() {
 }
 
 window.addEventListener('scroll', nonscroll);
-
-function nonscroll() {
-
-    console.log(window.screenY)
-}
-nonscroll()
